@@ -1,0 +1,3 @@
+BUG-001 : Le bouton login ne répond pas sur mobile (iOS Safari)
+BUG-002 : Le panier se vide après refresh sur iOS Safari
+BUG-003 : Le code promo ZOTO10 n'est pas reconnu en production
