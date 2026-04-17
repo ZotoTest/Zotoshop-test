@@ -9,6 +9,7 @@ describe("Login ZotoShop", () => {
 
   it("should login with valid credentials", () => {
     cy.log("TODO: implémenter ce test");
+    cy.log("TODO: implémenter ce test2");
   });
 
   it("should reject invalid credentials", () => {
