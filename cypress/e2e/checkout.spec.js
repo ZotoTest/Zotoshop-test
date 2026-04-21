@@ -12,6 +12,10 @@ describe("Checkout ZotoShop", () => {
   });
 
   it("should apply promo code", () => {
-    cy.log("TODO: implémenter ce test");
+    cy.log("TODO: implémenter ce test1");
+    cy.log("TODO: implémenter ce test2");
+    cy.log("TODO: implémenter ce test3");
+    cy.log("TODO: implémenter ce test4");
+    cy.log("TODO: implémenter ce test5");
   });
 });
