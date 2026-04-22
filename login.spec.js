@@ -18,5 +18,6 @@ describe("Login ZotoShop", () => {
   
   it("should reject invalid credentials", () => {
     cy.log("TODO: implémenter ce test");
+    cy.log("TODO: implémenter ce test");
   });
 });
