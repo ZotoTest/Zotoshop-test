@@ -20,6 +20,6 @@ cy.log("TODO: implémenter ce test");
     cy.log("TODO: implémenter ce test2");
     cy.log("TODO: implémenter ce test3");
     cy.log("TODO: implémenter ce test4");
-    cy.log("TODO: implémenter ce test");
+
   });
 });
