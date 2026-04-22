@@ -1,0 +1,15 @@
+{
+  "name": "zotoshop-tests",
+  "version": "1.0.0",
+  "description": "Cypress E2E tests for ZotoShop (demo)",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.14.1"
+  }
+}
