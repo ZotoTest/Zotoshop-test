@@ -4,7 +4,7 @@ describe("Login ZotoShop", () => {
   });
 
   it("should display login form", () => {
-    cy.log("TODO: implémenter ce test");
+    cy.log(" implémenter ce test");
   });
 
   it("should login with valid credentials", () => {
