@@ -1,6 +1,6 @@
 describe("Login ZotoShop", () => {
   beforeEach(() => {
-    cy.visit("/login");
+    cy.visit("/account");
   });
 
   it("should display login form", () => {
