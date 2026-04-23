@@ -1,11 +1,117 @@
-#Cypress artifacts
-cypress/videos/*
-cypress/screenshots/*
+# .gitignore for a Node.js + Cypress (JavaScript) project
+# Generated: 23 avril 2026
 
-
-#node modules
+# ----- Node -----
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-#env files
+# Build / output
+dist/
+build/
+out/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# ----- Cypress specific -----
+# Test artifacts produced by Cypress runs
+cypress/screenshots/
+cypress/videos/
+cypress/reports/
+cypress/results/
+cypress/.cache/
+
+# cypress local env file (may contain secrets)
+cypress.env.json
+
+# Mocha / reporter outputs
+mochawesome-report/
+mochawesome-report/*.json
+mochawesome*
+
+# ----- Environment / secrets -----
 .env
+.env.*.local
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Do NOT ignore example/env template files (keep them tracked)
+!.env.example
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- Editors / IDEs -----
+.vscode/
+!.vscode/settings.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ----- Logs -----
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# ----- Temporary / cache -----
+.cache/
+tmp/
+temp/
+npm-packages-offline-cache/
+
+# ----- Compiled / generated -----
+*.tsbuildinfo
+*.map
+
+# ----- Test reports -----
+junit.xml
+junit-*.xml
+test-results/
+
+# ----- Misc / tooling -----
+.serverless/
+.parcel-cache/
+/.pnp
+/.pnp.js
+
+# ----- Binaries -----
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ----- Editor swap / backup files -----
+*~
+*.swp
+*.swo
+
+# ----- Certificates and keys -----
+*.pem
+*.key
+
+# ----- Database files -----
+*.sqlite
+*.sqlite3
+
+# ----- OS X metadata -----
+.AppleDouble
+.LSOverride
+
+# ----- JetBrains caches -----
+.idea/
+*.iml
+
+# ----- Optional: Personal secrets or local config -----
+# Uncomment to ignore local config files you don't want in git
+# local.settings.json
+# secrets.yml
