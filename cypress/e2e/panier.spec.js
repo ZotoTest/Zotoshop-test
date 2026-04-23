@@ -13,5 +13,6 @@ describe("Panier ZotoShop", () => {
 
   it("should remove product from cart", () => {
     cy.log("TODO: implémenter ce test");
+    cy.log("TODO: implémenter ce test");
   });
 });
