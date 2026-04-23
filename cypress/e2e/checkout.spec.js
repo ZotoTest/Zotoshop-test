@@ -8,7 +8,7 @@ describe("Checkout ZotoShop", () => {
   });
 
   it("should complete checkout with valid data", () => {
-    cy.log("TODO: implémenter ce test");
+    cy.get(".SELECTEUR_CASSE_!!!").click();
   });
 
   it("should apply promo code", () => {
